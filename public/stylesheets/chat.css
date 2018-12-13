@@ -1,0 +1,52 @@
+*{margin: 0;padding: 0;list-style: none;}
+html,body{
+    width: 100%;height: 100%;
+}
+body{
+    background: none repeat scroll 0 0 #D8EDFC;
+}
+.chat-box{
+    width: 600px;margin: 10px auto;
+}
+#chat-back{
+    display: block;width: 60px;height: 30px;background: gray;font-size: 20px;color: #ffffff;
+    border-radius: 5px;text-align: center;line-height: 30px;
+}
+.chat-box h1{
+    text-align: center;font-size: 26px;
+}
+.chat-content{
+    width: 100%;line-height: 30px;
+}
+.chat-content li{
+    width: 100%;overflow: hidden;margin-top: 15px;
+}
+.chat-content li span{
+    line-height: 30px;float: left;padding-right: 10px;
+}
+.chat-content li div b{
+    display: block;width: 0;height: 0;border-right: 10px solid rgb(35, 200, 230);
+    border-top: 10px solid transparent;;border-bottom: 10px solid transparent;
+    position: absolute;left: 0px;top: 10px;
+}
+.chat-content li div{
+    position: relative;width: 68%;float: left;
+}
+.chat-content li i{
+    display: block;background: url("../images/t.jpg") no-repeat;width: 30px;height: 30px;
+    float: left;border-radius: 50%;background-size: 100%;margin-left: 80px;
+}
+.chat-content li div p{
+    display: block;float: left;border: 1px solid rgb(35, 200, 230);border-radius: 5px;
+    line-height: 30px;width: 70%;text-indent: 5px;margin-left: 10px;
+}
+.chat-box .chat-foot{
+    margin-top: 30px;margin-left: 100px;display: block;float: left;
+}
+.chat-box .chat-foot textarea{
+    width: 480px;font-size: 20px;line-height: 30px;height: 150px;resize: none;
+}
+.chat-foot span{
+    display: block;width: 100px;line-height: 40px;background: #9abdf1;text-align: center;
+    margin-top: 10px;border-radius: 10px;float: right;margin-right: 30px;
+}

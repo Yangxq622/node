@@ -1,0 +1,83 @@
+*{margin: 0;padding: 0;list-style: none;text-decoration: none;}
+html,body{
+    width: 100%;height: 100%;
+}
+body{
+    background: none repeat scroll 0 0 #D8EDFC;
+}
+.box{
+    width: 100%;height: 100%;
+}
+.box header{
+    width: 100%;height: 10%;background: url("../images/top_head1_bg.gif") repeat-x scroll 0 0 transparent;
+    overflow: hidden;
+}
+.box .content{
+    width: 100%;height: 90%;float: left;
+}
+.box header .logo{
+    width: 80%;height: 64px;float: left;
+}
+.box header .logo h2{
+    font-family: '黑体';font-size: 28px;line-height: 64px;color: #ffffff;text-indent: 2em;
+}
+.welcome{
+    width: 20%;height: 50px;float: left;margin-top: 10px;
+}
+.welcome-top{
+    width: 100%;height: 30px;margin-left: 30px;
+}
+
+.welcome-top a{
+    color: #eb2b2b;text-decoration: none;
+}
+
+.welcome-top i{
+    display: block;background: url("../images/user.gif") no-repeat;width: 13px;height: 14px;float: left;
+    margin-top: 8px;
+}
+.welcome-top p{
+    float: left;margin-left: 6px;line-height: 30px;font-size: 14px;color: #ffffff;
+}
+.welcome-bottom{
+    width: 100%;height: 20px;overflow: hidden;
+}
+.welcome-bottom .help{
+    display: block;float: left;background: url("../images/help2.gif") no-repeat;
+    width: 78px;height: 20px;border-radius: 8px;
+}
+.welcome-bottom .log-out{
+    display: block;float: left;background: url("../images/logout.gif") no-repeat;
+    width: 78px;height: 20px;border-radius: 8px;margin-left: 20px;
+}
+.welcome-bottom .log-out:hover{
+    cursor: pointer;
+}
+.content{
+    width: 100%;height: 90%;
+}
+.banner{
+    width: 15%;height: 100%;float: left;border-right: 1px solid black;
+}
+.banner .sys-menu{
+   width: 80%;margin-left: 35px;margin-top: 20px;height: 90%;
+}
+.sys-menu label{
+    display: block;width: 80%;height: 6%;line-height: 40px;text-align: center;
+}
+.sys-menu .menu{
+    width: 100%;height: 90%;overflow: hidden;
+}
+.sys-menu .menu li{
+    width: 100%;line-height: 40px;height: 6%;
+}
+.sys-menu .menu li:hover{
+    cursor: pointer;
+}
+/* .sys-menu input:checked ~ .menu{
+    height: 90%;
+} */
+.menu li{
+   width: 100%;line-height: 40px;height: 8%;background: rgba(21, 75, 190,.5);margin-bottom: 4px;
+   text-indent: 25px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link href="/stylesheets/register.css" rel="stylesheet">
+</head>
+<body>
+   <div class="box">
+        <form id="register">
+            <input type="text" placeholder="4-10位数字字母" name="username" class="username">
+            <input type="password" placeholder="6-12位数字字母或_" name="password" class="password">
+            <input type="password" placeholder="请确认您的密码" name="password1" class="password">
+            <span id="tip"></span><span id="pwdTip"></span>
+            <input type="checkbox" class="check"><p>我已阅读并接受该协议</p>
+            <input type="submit" value="确认注册" class="true">
+            <a href="/login">已有账号去登录</a>
+        </form>
+   </div>
+</body>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="/javascripts/register.js"></script>
+</html>

@@ -1,0 +1,46 @@
+*{margin: 0;padding: 0;list-style-type: none;}
+.table{
+    overflow: hidden;
+}
+.table-title{
+   width: 100%;height: 60px;border-bottom: 1px solid black;
+}
+.table-title i{
+    display: block;float: left;background: url("../images/title_arrow.gif") no-repeat;
+    width: 13px;height: 13px;margin-top: 35px;margin-left: 20px;
+}
+.table-title h3{
+    float: left;margin-left: 5px;margin-top: 26px;
+}
+.dish-box{
+    width: 100%;margin-top: 10px;
+}
+.dish-box h3{
+    line-height: 40px;margin-left: 100px;
+}
+.dish-box .msg{
+    width: 80%;margin: 6px auto;border: 1px solid gray;
+}
+.msg .dish-type,.dish-name,.dish-price,.dish-new-price,.dish-intro,.dish-img{
+    width: 100%;line-height: 40px;overflow: hidden;margin-left: 20px;
+}
+.dish-type  span,.dish-name span,.dish-price span,.dish-new-price span,.dish-intro span,.dish-img span{
+    display: block;float: left;width: 10%;
+}
+.dish-type select,.dish-name input,.dish-price input,.dish-new-price input{
+    display: block;float: left;width: 20%;margin: 3px auto;
+}
+.dish-intro textarea{
+    display: block;float: left;width: 20%;line-height: 30px;
+}
+.dish-img img{
+    display: block;width: 200px;height: 200px;margin-top: 15px;
+}
+#edit,#back{
+    width: 60px;height: 30px;background: #eeeeee;margin-right: 100px;display: block;
+    border: 1px solid gray;float: right;
+    text-align: center;line-height: 30px;margin-top: 10px;
+}
+#edit:hover,#back:hover{
+    cursor: pointer;
+}

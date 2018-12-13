@@ -1,0 +1,83 @@
+.table{
+    overflow: hidden;
+}
+.table-title{
+   width: 100%;height: 60px;border-bottom: 1px solid black;
+}
+.table-title i{
+    display: block;float: left;background: url("../images/title_arrow.gif") no-repeat;
+    width: 13px;height: 13px;margin-top: 35px;margin-left: 20px;
+}
+.table-title h3{
+    float: left;margin-left: 5px;margin-top: 26px;
+}
+.table-content{
+    width: 100%;border-bottom: 2px solid rgba(86, 160, 221, .5);height: 50px;
+}
+.table-content .search{
+    height: 50px;width: 30%;float: left;
+}
+.table-content  .search input{
+    width: 240px;height: 30px;margin-top: 10px;margin-left: 5px;line-height: 30px;
+}
+.table-content .search button{
+    width: 40px;height: 20px;
+}
+.table-content .page-box{
+    float: left;width: 70%;height: 30px;margin-top: 10px;
+}
+.btn-change{
+    float: left;width: 7%;height: 30px;line-height: 30px;
+}
+.page-box .page{
+    float: left;height: 30px;
+}
+.page a{
+    display: block;float: left;width: 30px;line-height: 30px;text-align: center;
+}
+.table-content .content{
+    width: 100%;height: 400px;
+}
+.content .th{
+    width: 100%;height: 30px;
+}
+.content .th .li1{
+    float: left;width: 30%;height: 30px;line-height: 30px;text-align: center;
+}
+.content .th .li2{
+    float: left;width: 40%;height: 30px;line-height: 30px;text-align: center;
+}
+.content .tbody{
+    width: 100%;
+}
+.tbody ul{
+    width: 100%;height: 52px;overflow: hidden;
+}
+.tbody ul .li1{
+    float: left;width: 30%;height: 50px;line-height: 50px;text-align: center;
+    border-top: 1px solid gray;background: #eeeeee;
+}
+.tbody ul .li2{
+    float: left;width: 40%;height: 50px;line-height: 50px;text-align: center;
+    border-top: 1px solid gray;background: #eeeeee;
+}
+.tbody ul .li2 span{
+    display: block;float: left;width: 40px;height: 20px;line-height: 20px;background: #eeeeee;
+    border: 1px solid #64c9e2;margin-left: 100px;margin-top: 18px;
+}
+.tbody ul .li2 span:hover{
+    cursor: pointer;
+}
+.content .add{
+    width: 100%;height: 50px;background: rgba(57, 155, 194,.4);padding-top: 10px;
+}
+.content .add:hover{
+    cursor: pointer;
+}
+.content .add span{
+    display: block;width: 40px;height: 20px;line-height: 20px;text-align: center;background: #eeeeee;
+    border: 1px solid gray;margin-left: 20px;
+}
+
+
+

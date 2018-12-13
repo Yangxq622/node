@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>新增菜品</title>
+    <link href="/stylesheets/common.css" rel="stylesheet">
+    <link href="/stylesheets/update.css" rel="stylesheet">
+    <link href="/stylesheets/chat.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="box">
+        <header>
+            <div class="logo">
+                <h2>后台管理系统-yang</h2>
+            </div>
+            <!-- 欢迎用户以及一些点击链接 -->
+            <div class="welcome">
+                <div class="welcome-top">
+                    <i></i>
+                    <% if(userObj){ %>
+                    <p>欢迎您，<span>
+                            <%= userObj.username %></span></p>
+                    <a href="/chat">联系其他管理员</a>
+                    <% }else{ %>
+                    请<a href="/login">登录</a>或<a href="/register">还没有账号</a>
+                    <% } %>
+                </div>
+                <div class="welcome-bottom">
+                    <img class="help">
+                    <img class="log-out">
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <!-- 左侧列表 -->
+            <div class="banner">
+                <div class="sys-menu">
+                    <input type="checkbox" id="c" hidden>
+                    <label for="c">系统菜单</label>
+                    <ul class="menu">
+                        <li>餐桌管理</li>
+                        <li>菜系管理</li>
+                        <li>菜品管理</li>
+                        <li>餐厅订单</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 右侧变动 -->
+            <div class="table">
+                <div class="table-title">
+                    <i></i>
+                    <h3>添加新菜品</h3>
+                </div>
+                <div class="dish-box">
+                    <h3>菜品信息</h3>
+                    <div class="msg">
+                        <div class="dish-type">
+                            <span>菜系：</span>
+                            <select>${html}</select>
+                        </div>
+                        <div class="dish-name">
+                            <span>菜名：</span>
+                            <input type="text">
+                        </div>
+                        <div class="dish-price">
+                            <span>价格：</span>
+                            <input type="text">
+                        </div>
+                        <div class="dish-new-price">
+                            <span>会员价格：</span>
+                            <input type="text">
+                        </div>
+                        <div class="dish-intro">
+                            <span>简介：</span>
+                            <textarea></textarea>
+                        </div>
+                        <div class="dish-img">
+                            <span>菜品图片</span>
+                            <img>
+                            <input type="file">
+                        </div>
+                        <span id="back">返回</span>
+                        <span id="edit">确定</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="/javascripts/add.js"></script>
+<script src="/javascripts/menu.js"></script>
+<script src="/javascripts/chat.js"></script>
+
+</html>
